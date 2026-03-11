@@ -107,3 +107,14 @@ transformer_encoder.py
 - Os pesos são inicializados aleatoriamente, então os valores de saída vão mudar a cada execução — a menos que o `np.random.seed(42)` esteja no topo do arquivo (já está).
 - O código não treina nada, só faz o forward pass.
 - A frase de entrada tá hardcoded, mas dá pra trocar fácil lá no começo do arquivo.
+
+---
+
+## Créditos
+
+O desenvolvimento deste projeto contou com o auxílio das IAs **ChatGPT** (OpenAI) e **Claude** (Anthropic) nas seguintes frentes:
+
+- **Entendimento do desafio**: apoio na interpretação dos requisitos do laboratório e na compreensão dos conceitos envolvidos na implementação de um Transformer Encoder do zero.
+- **Sintaxe das bibliotecas**: esclarecimentos sobre o uso de NumPy e Pandas, incluindo operações de álgebra linear, broadcasting e manipulação de arrays.
+- **Revisão de código**: análise e sugestões de melhoria para garantir correção na implementação do mecanismo de atenção, feed-forward e layer normalization.
+- **Arquivos complementares**: auxílio na criação deste README e de outros arquivos de apoio ao projeto.
